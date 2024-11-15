@@ -1,0 +1,165 @@
+/* App.css */
+
+/* Background dan container utama */
+body {
+  background-color: #fff5d4; /* Light yellow background */
+  font-family: Arial, sans-serif;
+}
+
+.task-item h5 {
+  color: black !important; /* Paksa teks judul berwarna hitam */
+}
+
+.container {
+  max-width: 700px;
+  margin-top: 50px;
+  background-color: #fff9e6; /* Lighter yellow for container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(96, 79, 79, 0.1);
+  margin: 50px;
+}
+
+/* Header */
+h1 {
+  color: #3c3b38; /* Golden yellow */
+  font-weight: 600;
+}
+
+/* Warna Prioritas */
+.text-high-priority {
+  color: #c24214; /* Dark orange */
+  font-weight: bold;
+}
+
+.text-medium-priority {
+  color: #e28b11; /* Golden yellow */
+  font-weight: bold;
+}
+
+.text-low-priority {
+  color: #d3c54a; /* Khaki */
+  font-weight: bold;
+}
+
+/* Tombol Delete */
+.delete-btn {
+  background-color: #ffa500; /* Orange */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff8c00; /* Darker orange */
+}
+
+/* Gaya Task Item */
+.task-item {
+  background-color: #fffacd; /* Lemon chiffon */ /* Golden yellow border */
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(255, 215, 0, 0.3); /* Golden shadow */
+}
+
+/* Dropdown Status */
+.task-status-select {
+  background-color: #fff8dc; /* Cornsilk */
+  border: 1px solid #ffd700;
+  color: #b8860b; /* Dark golden rod */
+}
+
+.task-status-select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* Tombol Add Task */
+.btn-add {
+  background-color: #ffd700; /* Golden yellow */
+  color: #000000; /* Black text for better contrast */
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-add:hover {
+  background-color: #ffb700; /* Darker yellow on hover */
+}
+.add-task-form { /* Kuning lebih gelap */
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #ffcc00; /* Lebih gelap dari container utama */
+}
+.edit-btn {
+  background-color: #90ee90; /* Light green */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn:hover {
+  background-color: #32cd32; /* Lime green */
+}
+
+.archive-btn {
+  background-color: #ecc61d; /* Gray */
+  color: white;
+  border: none;
+}
+
+.archive-btn:hover {
+  background-color: #696969; /* Darker gray */
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Warna kuning */
+  color: #000; /* Teks hitam untuk kontras */
+}
+
+.btn-light {
+  background-color: #f8f9fa; /* Warna abu default */
+  color: #6c757d;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.tab-button.active {
+  background-color: #ffcc00;
+  color: #fff;
+}
+
+.archive-btn {
+  background-color: #87cefa; /* Sky blue */
+  color: #fff;
+}
+
+.archive-btn:hover {
+  background-color: #4682b4; /* Steel blue */
+}
+
+
+/* Form input */
+input[type="text"], select {
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #fffacd; /* Lemon chiffon */
+}
+
+input[type="text"]:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+}
